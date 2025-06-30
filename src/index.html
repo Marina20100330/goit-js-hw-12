@@ -1,52 +1,46 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home work 12</title>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css /styles.css" />
-  </head>
-  <body>
-    <div class="search-container">
-      <form class="form">
-        <label>
-          <input
-            class="input-item"
-            type="text"
-            name="search-text"
-            placeholder="Search images..."
-            required
-          />
-        </label>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home work 12</title>
 
-        <div>
-          <button class="btn" type="submit">Search</button>
-        </div>
-      </form>
-    </div>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-    <div class="loader is-hidden">
-      <span class="loader-text">Loading images, please wait...</span>
-      <div class="loader-animation"></div>
-    </div>
+<body>
+  <div class="search-container">
+    <form class="form">
+      <label>
+        <input class="input-item" type="text" name="search-text" placeholder="Search images..." required />
+      </label>
 
-    <ul class="gallery"></ul>
+      <div>
+        <button class="btn" type="submit">Search</button>
+      </div>
+    </form>
+  </div>
 
-    <div class="load-more-loader is-hidden">
-      <span class="loader-text">Loading images, please wait...</span>
-      <div class="loader-animation"></div>
-    </div>
+  <div class="loader is-hidden">
+    <span class="loader-text">Loading images, please wait...</span>
+    <div class="loader-animation"></div>
+  </div>
 
-    <div class="btn-load">
-      <button class="load-more hidden">Load more</button>
-    </div>
+  <ul class="gallery"></ul>
 
-    <script type="module" src="./main.js"></script>
-  </body>
+  <div class="load-more-loader is-hidden">
+    <span class="loader-text">Loading images, please wait...</span>
+    <div class="loader-animation"></div>
+  </div>
+
+  <div class="btn-load">
+    <button class="load-more hidden">Load more</button>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
 </html>
